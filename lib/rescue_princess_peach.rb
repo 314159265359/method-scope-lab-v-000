@@ -4,7 +4,7 @@ def rescue_princess_peach
 end
 
 def returning_false
-  number = 100
+  number = 101
   7 > 4 && 100 < number
 end
 
@@ -15,4 +15,3 @@ end
 rescue_princess_peach
 #puts status
  puts returning_false
- 
