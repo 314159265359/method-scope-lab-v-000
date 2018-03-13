@@ -9,7 +9,7 @@ def returning_false
 end
 
 def using_truthiness
-  holder = false
+  holder = !false
   7 > 8 || holder
 end
 
