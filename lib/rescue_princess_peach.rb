@@ -14,7 +14,7 @@ end
 # end
 
 def using_truthiness
-  7 > 8 || 7>6
+  7 > 8 || 7
 end
 
 ## Comment the below back in to see method scope in action!
