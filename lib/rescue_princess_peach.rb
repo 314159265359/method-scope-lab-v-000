@@ -8,10 +8,10 @@ def returning_false
   7 > 4 && 100 < number
 end
 
-def using_truthiness
-  holder = !false
-  7 > 8 || holder
-end
+# def using_truthiness
+#   holder = !false
+#   7 > 8 || holder
+# end
 
 def using_truthiness
   7 > 8 || 7>6
