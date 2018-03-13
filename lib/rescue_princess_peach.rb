@@ -13,6 +13,10 @@ def using_truthiness
   7 > 8 || holder
 end
 
+def using_truthiness
+  7 > 8 || 7>6
+end
+
 ## Comment the below back in to see method scope in action!
 
 rescue_princess_peach
