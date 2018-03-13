@@ -9,7 +9,7 @@ def returning_false
 end
 
 def using_truthiness
-  holder = !true
+  holder = !false
   7 > 8 || holder
 end
 
@@ -19,4 +19,3 @@ rescue_princess_peach
 #puts status
  puts returning_false
  puts using_truthiness
- 
